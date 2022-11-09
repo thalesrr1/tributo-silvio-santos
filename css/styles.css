@@ -12,6 +12,7 @@ html {
     margin-right: auto;
     padding: 20px 50px;
     margin: 50px;
+    border-radius: 8px;
 }
 
 
@@ -32,4 +33,40 @@ html {
 
 .cabecalho p {
     font-style: italic;
+}
+
+/* corpo do site */
+
+.img-destaque {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* biografia curiosidade container */
+
+.bio-cur-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+
+.bio-cur-container > ul > li {
+    height: 30px;
+}
+/* citações */
+
+.frase-container {
+    background-color: #DDD;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.frase-container blockquote {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.frase-container p {
+    font-style: italic; 
 }
